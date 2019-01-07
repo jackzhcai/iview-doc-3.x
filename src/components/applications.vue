@@ -72,7 +72,7 @@
     export default {
         methods: {
             handleChange (name) {
-                if (name === 'iview') {
+                if (name === 'iview3.x') {
                     window.location.href = 'https://www.iviewui.com';
                 } else if (name === 'iview-weapp') {
                     _hmt.push(['_trackEvent', 'menu-weapp', 'click']);

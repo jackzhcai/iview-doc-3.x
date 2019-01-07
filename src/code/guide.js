@@ -80,7 +80,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import App from 'components/app.vue';
 import Routers from './router.js';
-import iView from 'iview';
+import iView from 'iview3.x';
 import 'iview/dist/styles/iview.css';
 
 Vue.use(VueRouter);
@@ -100,7 +100,7 @@ new Vue({
 `;
 
 install.need = `
-import { Button, Table } from 'iview';
+import { Button, Table } from 'iview3.x';
 Vue.component('Button', Button);
 Vue.component('Table', Table);
 `;
@@ -146,7 +146,7 @@ Incorrect usage:
 
 i18n.demo = `
 import Vue from 'vue';
-import iView from 'iview';
+import iView from 'iview3.x';
 import locale from 'iview/dist/locale/en-US';
 
 Vue.use(iView, { locale });
@@ -155,7 +155,7 @@ Vue.use(iView, { locale });
 i18n.demand = `
 import Vue from 'vue';
 // importing iView on demand
-import { locale, Page } from 'iview';
+import { locale, Page } from 'iview3.x';
 import lang from 'iview/dist/locale/en-US';
 
 // configure language
@@ -167,7 +167,7 @@ Vue.component('Page', Page);
 
 i18n.vuei18n6 = `
 import Vue from 'vue';
-import iView from 'iview';
+import iView from 'iview3.x';
 import VueI18n from 'vue-i18n';
 import en from 'iview/dist/locale/en-US';
 import zh from 'iview/dist/locale/zh-CN';
@@ -192,7 +192,7 @@ new Vue({ i18n }).$mount('#app');
 
 i18n.vuei18n5 = `
 import Vue from 'vue';
-import iView from 'iview';
+import iView from 'iview3.x';
 import VueI18n from 'vue-i18n';
 import en from 'iview/dist/locale/en-US';
 import zh from 'iview/dist/locale/zh-CN';
@@ -251,7 +251,7 @@ theme.less = `
 
 theme.lessImport = `
 import Vue from 'vue';
-import iView from 'iview';
+import iView from 'iview3.x';
 import '../my-theme/index.less';
 
 Vue.use(iView);
@@ -276,7 +276,7 @@ iview-theme build -o dist/
 
 theme.import = `
 import Vue from 'vue';
-import iView from 'iview';
+import iView from 'iview3.x';
 import '../my-theme/dist/iview.css';
 
 Vue.use(iView);

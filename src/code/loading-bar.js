@@ -2,7 +2,7 @@ let code = {};
 
 code.router = `
 // 部分代码省略
-import iView from 'iview';
+import iView from 'iview3.x';
 Vue.use(iView);
 
 router.beforeEach((to, from, next) => {
