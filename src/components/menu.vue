@@ -206,11 +206,11 @@
                 }
             },
             handleGoToGitHub () {
-                _hmt.push(['_trackEvent', 'menu-go-github', 'click']);
+//                _hmt.push(['_trackEvent', 'menu-go-github', 'click']);
                 window.open('https://github.com/iview/iview');
             },
             handleGoToTwitter () {
-                _hmt.push(['_trackEvent', 'menu-go-twitter', 'click']);
+//                _hmt.push(['_trackEvent', 'menu-go-twitter', 'click']);
                 window.open('https://twitter.com/iViewUI');
             },
             handleGoToMenu (name) {

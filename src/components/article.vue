@@ -286,13 +286,13 @@
                 window.scrollTo(0, scroll_top);
             },
             handleAsideAd (name, isQQGroup = false) {
-                _hmt.push(['_trackEvent', name, 'click']);
+//                _hmt.push(['_trackEvent', name, 'click']);
                 if (isQQGroup) {
                     this.ask = true;
                 }
             },
             handleClickAsk () {
-                _hmt.push(['_trackEvent', 'ask_issue_dev', 'click']);
+//                _hmt.push(['_trackEvent', 'ask_issue_dev', 'click']);
             }
         },
         created () {
@@ -330,9 +330,9 @@
                 }
             }
 
-            bus.$on('on-donate-show', () => {
-                this.donate = true;
-            })
+//            bus.$on('on-donate-show', () => {
+//                this.donate = true;
+//            })
         }
     }
 </script>

@@ -519,7 +519,7 @@
                 <i-code lang="html" slot="code">{{ code.siderFixed }}</i-code>
             </Demo>
 
-            <ad></ad>
+            <!--<ad></ad>-->
 
             <div class="api">
                 <inAnchor title="API" h2></inAnchor>

@@ -17,13 +17,13 @@ import bus from './components/bus';
 import 'iview3.x/dist/styles/iview.css';
 // import './styles/theme-christmas/index.less';
 
-import ad from './components/ad.vue';
+// import ad from './components/ad.vue';
 
 Vue.use(VueRouter);
 Vue.use(VueI18n);
 Vue.use(iView);
 
-Vue.component('ad', ad);
+// Vue.component('ad', ad);
 
 // 开启debug模式
 Vue.config.debug = true;

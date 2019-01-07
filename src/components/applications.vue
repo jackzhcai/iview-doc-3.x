@@ -75,10 +75,10 @@
                 if (name === 'iview3.x') {
                     window.location.href = 'https://www.iviewui.com';
                 } else if (name === 'iview-weapp') {
-                    _hmt.push(['_trackEvent', 'menu-weapp', 'click']);
+//                    _hmt.push(['_trackEvent', 'menu-weapp', 'click']);
                     window.location.href = 'https://weapp.iviewui.com?from=iview';
                 } else if (name === 'inmap') {
-                    _hmt.push(['_trackEvent', 'menu-inmap', 'click']);
+//                    _hmt.push(['_trackEvent', 'menu-inmap', 'click']);
                     window.location.href = 'http://inmap.talkingdata.com?from=iview';
                 }
             }

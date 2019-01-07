@@ -78,7 +78,7 @@
                 <i-code lang="html" slot="code">{{ code.loading }}</i-code>
             </Demo>
 
-            <ad></ad>
+            <!--<ad></ad>-->
 
             <div class="api">
                 <inAnchor title="API" h2></inAnchor>

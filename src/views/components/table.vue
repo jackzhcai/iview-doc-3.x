@@ -267,7 +267,7 @@
                 <Button type="primary" size="large" @click="table2 = true">多列指标筛选的表格</Button>
                 <Button type="primary" size="large" @click="table3 = true">多种效果组合的表格</Button>
 
-                <ad></ad>
+                <!--<ad></ad>-->
 
                 <div class="api">
                     <inAnchor title="API" h2></inAnchor>

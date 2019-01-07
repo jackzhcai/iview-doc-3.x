@@ -61,7 +61,7 @@
         },
         methods: {
             handleAd (name) {
-                _hmt.push(['_trackEvent', name, 'click']);
+//                _hmt.push(['_trackEvent', name, 'click']);
             },
             handleSendAd () {
                 bus.$emit('on-donate-show');

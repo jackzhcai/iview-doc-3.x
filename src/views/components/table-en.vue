@@ -264,7 +264,7 @@
                 <Button type="primary" size="large" @click="table2 = true">Table with Multi-cols Filter</Button>
                 <Button type="primary" size="large" @click="table3 = true">Table with Many Styles</Button>
 
-                <ad></ad>
+                <!--<ad></ad>-->
 
                 <div class="api">
                     <inAnchor title="API" h2></inAnchor>
