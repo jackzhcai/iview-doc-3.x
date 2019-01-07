@@ -194,29 +194,29 @@
                 window.localStorage.setItem('settings-code', val);
             },
             getAdList (name) {
-                $.ajax({
-                    method: 'get',
-                    url: '/v1/areq/list',
-                    params: {
-                        name: name
-                    }
-                }).then(res => {
-                    const data = res.data;
-
-                    if (data.code !== 200) {
-
-                    } else {
-                        this[`adList${name}`] = data.data;
-                    }
-                })
+//                $.ajax({
+//                    method: 'get',
+//                    url: '/v1/areq/list',
+//                    params: {
+//                        name: name
+//                    }
+//                }).then(res => {
+//                    const data = res.data;
+//
+//                    if (data.code !== 200) {
+//
+//                    } else {
+//                        this[`adList${name}`] = data.data;
+//                    }
+//                })
             }
         },
         mounted () {
             this.handleUpdateSettings();
-            this.getAdList(1);
-            this.getAdList(2);
-            this.getAdList(3);
-            this.getAdList(4);
+//            this.getAdList(1);
+//            this.getAdList(2);
+//            this.getAdList(3);
+//            this.getAdList(4);
         }
     }
 </script>
