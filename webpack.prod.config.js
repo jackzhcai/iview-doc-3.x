@@ -10,7 +10,7 @@ var fs = require('fs');
 var CleanWebpackPlugin = require('clean-webpack-plugin')
 
 // config.output.publicPath = 'https://file.iviewui.com/dist/';
-config.output.publicPath = '/iview-docs-3.x/dist/';
+config.output.publicPath = '/iview-doc-3.x/dist/';
 // config.output.publicPath = 'https://icarusion.gitee.io/iview/';
 // config.output.publicPath = '/dist/';
 config.output.filename = '[name].[hash].js';                 // 带hash值的入口js名称
