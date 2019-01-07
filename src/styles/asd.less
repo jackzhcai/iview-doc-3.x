@@ -1,0 +1,49 @@
+.asd{
+    display: block;
+    width: 100%;
+    &-main{
+        margin: 0 10px;
+        border: 1px solid transparent;
+        border-radius: 6px;
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+        position: relative;
+        opacity: .8;
+        &-no-opacity{
+            opacity: 1;
+            margin: 0;
+            border-radius: 0;
+            border: none;
+        }
+        img{
+            display: block;
+            width: 95%;
+            margin: 0 auto;
+            border-radius: 4px;
+        }
+        &-no-opacity img{
+            width: 100%;
+            border-radius: 0;
+        }
+    }
+    &:hover{
+        .asd-main{
+            opacity: 1;
+            //border: 1px solid rgba(0,127,255,.3);
+        }
+    }
+
+    &-title{
+        font-size: 12px !important;
+        margin: 0 0 16px !important;
+    }
+    &-mb{
+        margin-bottom: 6px;
+    }
+    &-affix{
+        .ivu-affix{
+            z-index: 1000;
+            left: 0 !important;
+        }
+    }
+}

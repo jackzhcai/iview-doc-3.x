@@ -1,0 +1,92 @@
+@import "mayun/iconfont.css";
+
+.index{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    background-image: url("../images/iview3-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+
+    &-main{
+        width: 50%;
+        height: 100%;
+    }
+    &-logo{
+        height: 50px;
+        margin-top: 16px;
+        margin-left: 10%;
+        vertical-align: middle;
+    }
+    &-container{
+        //text-align: center;
+        height: 100%;
+        padding-left: 10%;
+    }
+    &-title{
+        height: 100px;
+    }
+    &-content{
+        font-size: 24px;
+        margin-top: 10px;
+        padding-left: 16px;
+    }
+    &-actions{
+        margin-top: 80px;
+        margin-bottom: 150px;
+        margin-left: 16px;
+    }
+    &-btn{
+        min-width: 110px;
+        margin-right: 8px;
+        margin-bottom: 16px !important;
+    }
+    &-code{
+        height: 150px;
+        margin: 0 auto;
+    }
+    &-bg-footer{
+        width: 260px;
+        height: 90px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        img{
+            width: 100%;
+        }
+    }
+    &-extra{
+        position: absolute;
+        top: 16px;
+        right: 16px;
+    }
+    &-search{
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 20px;
+        margin-left: 32px;
+
+        .ivu-select{
+            width: 165px;
+            font-size: 14px;
+
+            &-selection{
+                border: 0;
+            }
+            &-visible .ivu-select-selection{
+                box-shadow: none;
+            }
+            &-arrow{
+                display: none !important;
+            }
+            &-input{
+                font-size: 14px;
+            }
+        }
+    }
+}
