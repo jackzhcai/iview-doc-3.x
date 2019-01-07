@@ -54,7 +54,7 @@
             </span>
         </div>
         <!--<div class="index-logo-new-year">-->
-        <!--<img src="../images/ldocs-doc-2018.png">-->
+        <!--<img src="../images/logo-doc-2018.png">-->
         <!--</div>-->
     </div>
 </template>

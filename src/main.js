@@ -53,7 +53,7 @@ Vue.locale('en-US', mergeEN);
 const RouterConfig = {
     routes: Routers
 };
-if (Env !== 'local') {
+if (Env != 'local') {
     // RouterConfig.mode = 'history';
 }
 const router = new VueRouter(RouterConfig);

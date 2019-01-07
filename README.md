@@ -1,7 +1,7 @@
 # iview-doc-3.x
-Doc of iView
+基于iView 3.x 文档镜像
 
-## change
+## 修改项
 
 - 修改`webpack.prod.config.js`的`publicPath`和`filename`
 - 切换到路由的`hash`模式
