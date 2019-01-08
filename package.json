@@ -1,6 +1,6 @@
 {
   "name": "iview-doc-3.x",
-  "version": "2.14.3",
+  "version": "3.2.1",
   "description": "基于iView 3.x 文档镜像",
   "main": "index.js",
   "scripts": {
@@ -16,11 +16,11 @@
   "author": "Aresn",
   "license": "MIT",
   "dependencies": {
+    "@bilibili-business/iview3": "^3.2.1",
     "axios": "^0.16.2",
     "clipboard": "^1.7.1",
     "highlightjs": "^8.7.0",
     "ityped": "0.0.6",
-    "iview3.x": "^3.2.1",
     "marked": "^0.3.19",
     "vue": "^2.5.21",
     "vue-i18n": "^5.0.3",

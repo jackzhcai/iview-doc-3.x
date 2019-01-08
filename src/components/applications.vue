@@ -52,7 +52,7 @@
             <img src="https://file.iviewui.com/icon/application.png" class="apps-menu">
             <Icon type="ios-arrow-down" class="apps-arrow"></Icon>
             <DropdownMenu slot="list">
-                <DropdownItem name="iview">
+                <DropdownItem name="iview3">
                     <img src="https://file.iviewui.com/icon/iview.png" class="apps-img">
                     <span class="apps-name">iView</span>
                 </DropdownItem>
@@ -72,7 +72,7 @@
     export default {
         methods: {
             handleChange (name) {
-                if (name === 'iview3.x') {
+                if (name === 'iview3') {
                     window.location.href = 'https://www.iviewui.com';
                 } else if (name === 'iview-weapp') {
 //                    _hmt.push(['_trackEvent', 'menu-weapp', 'click']);
